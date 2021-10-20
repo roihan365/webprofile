@@ -717,6 +717,27 @@ section {
   padding: 0;
 }
 
+.visitweb {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  transition: 0.2s all ease;
+  font-weight: 700;
+}
+.visitweb:active,
+.visitweb:focus,
+.visitweb:hover {
+  outline: none;
+}
+.visitweb:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
