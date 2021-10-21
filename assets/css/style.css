@@ -717,7 +717,8 @@ section {
   padding: 0;
 }
 
-.visitweb {
+.visitweb,
+.tech {
   display: inline-block;
   border: 1px solid #000;
   padding: 10px 15px;
