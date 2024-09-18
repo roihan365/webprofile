@@ -7,6 +7,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing');
 })->name('landing');
+Route::get('/topup/report', function () {
+    return response()->json([
+        'status' => 'success',
+        'data' => []
+    ]);
+})->name('topup');
 Route::get('project', [ProjectController::class, 'indexLanding'])->name('project.landing');
 Route::get('/project/{project:slug}', [ProjectController::class, 'show'])->name('project.show');
 
